@@ -1,0 +1,224 @@
+
+body
+{
+    background-color: #302D33;
+}
+.cabecera
+{
+    width: 100%;
+    height: 5vh;
+    display: grid;
+    place-items: center;
+    border-bottom: 1px solid #fff;
+}
+.contenido_cabecera
+{
+    width: 95%;
+    height: 80%;
+    display: flex;
+    justify-content: space-between;
+}
+.contenido
+{
+    width: 45%;
+    height: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.item_contacto a
+{
+    color: #fff;
+}
+.social
+{
+    width: 20%;
+}
+.item_social a
+{
+    color: #fff;
+}
+.second_cabecera
+{
+    width: 100%;
+    height: 5vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.second_cabecera-contenido
+{
+    width: 95%;
+    height: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+.second_cabecera-seccion
+{
+    width: 45%;
+    height: 100%;
+}
+.logo
+{
+    display: flex;
+    align-items: center;
+    color: #fff;
+}
+.menu
+{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    color: #fff;
+}
+.menu_button
+{
+    width: 4vh;
+    height: 4vh;
+    border: solid 1px #fff;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: column;
+}
+.line
+{
+    width: 80%;
+    height: 10%;
+    background-color: #fff;
+}
+/*Inicio*/
+.inicio
+{
+    width: 100%;
+    height: 90vh;
+    display: flex;
+    overflow: hidden;
+}
+.inicio_seccion
+{
+    width: 50%;
+    height: 100%;
+}
+.texto
+{
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+canvas
+{
+    z-index: -99;
+    position: absolute;
+    top: 0;
+    left: 0;    
+}
+.inicio_texto-contenido
+{
+    width: 70%;
+    height: 70%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.inicio_texto-contenido h2
+{
+    font-family: 'Smythe', cursive;
+    color: #fff;
+    font-size: 6vh;
+    width: 80%;
+    -webkit-text-stroke: 0.1px #000;
+}
+.inicio_texto-contenido p
+{
+    width: 80%;
+    color: #0e0e0e;
+    font-family: 'Josefin Sans', sans-serif;
+}
+.cont_botones
+{
+    width: 80%;
+    height: 30%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.cont_botones button
+{
+    width: 45%;
+    padding: 10px 0;
+    font-family: 'Josefin Sans', sans-serif;
+    transition: transform 500ms ease-in-out;
+}
+.cont_botones button:hover
+{
+    transform: scale(1.1);
+}
+.cont_botones button:first-child
+{
+    background-color: #232126;
+    color: #fff;
+    border: solid 1px #fff;
+}
+.cont_botones button:nth-child(2)
+{
+    background-color: transparent;
+    color: #fff;
+    border: solid 1px #fff;
+}
+.animacion
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.borde3
+{
+    position: absolute;
+    width: 50vh;
+    height: 50vh;
+    border: solid 1px white;
+    border-radius: 15px;
+    animation: rotar1 5s infinite linear;
+    box-shadow: inset 0 0 5px #C5A967, inset 0 0 10px #C5A967, 0 0 20px #C5A967;
+}
+.borde2
+{
+    width: 100%;
+    height: 100%;
+    border: solid 1px white;
+    transform: rotate(45deg);
+    box-shadow: inset 0 0 5px #C5A967, inset 0 0 10px #C5A967, 0 0 20px #C5A967;
+    border-radius: 15px;
+}
+.borde
+{
+    position: absolute;
+    width: 50vh;
+    height: 50vh;
+    border: solid 1px white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 15px;
+}
+img
+{
+    height: 100%;
+    filter: drop-shadow(0px 0px 30px rgba(245, 241, 237, 0.5));
+}
+.background_animacion
+{
+    position: absolute;
+    z-index: -1;
+    width: 100%;
+    height: 100%;
+    background-image: url("../imagenes/stars2.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    opacity: 0.1;
+}
+  
