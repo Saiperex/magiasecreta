@@ -70,4 +70,27 @@
         box-shadow: inset 0 0 5px #C5A967, inset 0 0 10px #C5A967, 0 0 20px #C5A967;
     
     }
+    .acerca_imagenes
+    {
+        display: none;
+    }
+    .acerca_textos
+    {
+        width: 100%;
+    }
+    .acerca_textos p
+    {
+        font-size: 2vh;
+    }
+    .card_conteiner
+    {
+        flex-direction: column;
+        height: 50%;
+    }
+    .card
+    {
+        width: 90%;
+        height: 23%;
+        font-size: 1.2vh;
+    }
 }
