@@ -1,0 +1,62 @@
+@media screen and (max-width:1279px) 
+{
+    .cabecera
+    {
+        display: none;
+    }
+    .second_cabecera
+    {
+        border-bottom: solid 1px #fff;
+    }
+    .menu_item
+    {
+        display: none;
+    }
+    .menu
+    {
+        justify-content: flex-end;
+    }
+    .inicio
+    {
+        height: 95vh;
+        flex-direction: column;
+    }
+    .inicio_seccion
+    {
+        width: 100%;
+        height: 50%;
+    }
+    .borde3
+    {
+        width: 30vh;
+        height: 30vh;
+    }
+    .borde
+    {
+        width: 30vh;
+        height: 30vh;
+    }
+    .gafete
+    {
+        width: 60%;
+        height: 10%;
+        bottom: 15%;
+    }
+    .logo h1 
+    {
+        font-size: 2vh;
+    }
+    .inicio_texto-contenido
+    {
+        width: 90%;
+        height: 90%;
+    }
+    .inicio_texto-contenido h2
+    {
+        width: 100%;
+    }
+    .inicio_texto-contenido p
+    {
+        width: 100%;
+    }
+}
