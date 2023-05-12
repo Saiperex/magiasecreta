@@ -93,4 +93,30 @@
         height: 23%;
         font-size: 1.2vh;
     }
+    .servicios
+    {
+        border-top: solid 1px #C5A967;
+    }
+    .servicios_contenedor
+    {
+        margin-top: 5vh;
+    }
+    .servicio_item
+    {
+        width: 80%;
+        height: 20%;
+        justify-content: center;
+    }
+    .servicio_item img 
+    {
+        position: absolute;
+        top: -25%;
+        height: 30%;
+    }
+    .servicio_item p 
+    {
+        font-size: 1.2vh;
+        width: 95%;
+        height: 40%;
+    }
 }

@@ -330,3 +330,50 @@ canvas
     height: 80%;
     text-align: center;
 }
+/*Servicios*/
+.servicios_contenedor
+{
+    width: 100%;
+    height: 80vh;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+}
+.servicio_item
+{
+    width: 45%;
+    height: 45%;
+    border: solid 1px #C5A967;
+    border-radius: 10px;
+    color: #fff;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+}
+.servicios legend
+{
+    width: 100%;
+    height: 20vh;
+    font-family: crake;
+    color: #C5A967;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 3vh;
+    text-align: center;
+}
+.servicio_item img
+{
+    height: 40%;
+    border-radius: 50%;
+    border: #C5A967 solid 1px;
+}
+.servicio_item p
+{
+    height: 30%;
+    width: 80%;
+    font-size: 1.7vh;
+    text-align: center;
+}
