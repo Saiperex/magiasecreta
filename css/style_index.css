@@ -377,3 +377,82 @@ canvas
     font-size: 1.7vh;
     text-align: center;
 }
+/*Contacto*/
+.contacto_area
+{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.contacto_contenedor
+{
+    width: 80%;
+    height: 80%;
+    border: #C5A967 solid 1px;
+    border-radius: 10px;
+    backdrop-filter: blur(10px);
+    background-color: rgba(66, 66, 66, 0.5);
+    display: flex;
+}
+.as
+{
+    width: 50%;
+    height: 100%;
+}
+.izquierda
+{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 90%;
+    padding: 5%;
+    color: #fff;
+    font-family: crake;
+    font-size: 2vh;
+}
+.izquierda h2
+{
+    color: #C5A967;
+}
+.izquierda fieldset
+{
+    color: #C5A967;
+}
+.enviar
+{
+    width: 50%;
+    height: 5%;
+    background-color: #000;
+    color: #fff;
+}
+.derecha
+{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.as_redes
+{
+    color: #fff;
+    font-family: crake;
+    width: 100%;
+    height: 40%;
+    border-left: #C5A967 solid 1px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+}
+.as_redes h2
+{
+text-align: center;
+}
+.as_redes ul
+{
+    width: 80%;
+    display: flex;
+    justify-content: space-around;
+    font-size: 7vh;
+}
