@@ -329,6 +329,7 @@ canvas
     width: 90%;
     height: 80%;
     text-align: center;
+    font-size: 1.3vh;
 }
 /*Servicios*/
 .servicios_contenedor
