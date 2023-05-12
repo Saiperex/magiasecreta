@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="css/init.css">
+    <link rel="stylesheet" href="css/style_index.css">
+    <link rel="stylesheet" href="css/slider.css">
+
+    <link rel="stylesheet" href="css/resp.css">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Magia Secreta - Contacto</title>
+</head>
+<body>
+    <section class="contacto_area">
+        <div class="acercaBg"></div>
+        <div class="contacto_contenedor">
+            <form class="as izquierda" action="">
+                <h2>CONTACTANOS</h2>
+                <label for="nombreapellido">Nombre y
+                    Apellido</label><!--La etiqueta for enlaza el texto del label al imput-->
+                <input type="text" name="nombre" id="nombreapellido" class="input-padron" required=""
+                    placeholder="Nombre y Apellido"><!--Entrada tipo texto-->
+                <!--La palabra required quiere decir que ese input es obligatorio-->
+                <!--El placeholder es el texto de adentro del input. Sirve como mensaje previo-->
+
+                <label for="correoelectronico">Correo Electronico</label>
+                <input type="email" name="email" id="correoelectronico" class="input-padron" required=""
+                    placeholder="email@dominio.com"><!--Es un input que admite direccion de correo -->
+
+                <label for="telefono">telefono</label>
+                <input type="tel" name="" id="telefono" class="input-padron" required=""
+                    placeholder="(xxx) 15(x-xxx-xxx)">
+
+                <label for="contraseña">mensaje</label>
+                <input type="password" name="password" id="contraseña" class="input-padron" required=""
+                    placeholder="">
+
+                <fieldset>
+                    <!--Lo ecomendable es que si hay un grupo de inpput que pertenecen a algo en especifico, agruparlos de esta manera-->
+                    <legend>¿Como le gustaria que lo contactemos?</legend>
+                    <!--Se prefiere usar esto en vez que P para marcar texto como una leyenda-->
+
+                    <label class="checkbox" for="radio-email"><input type="radio" name="contacto" id="radio-email"
+                            value="E-mail">E-mail</label><!--Es un boton radio que se pone de color cuando esta seleccionado-->
+                    <!--Se usa el name para enlazar los radio y asi poder seleccionar solo uno-->
+
+                    <label class="checkbox" for="radio-telefono"><input type="radio" name="contacto"
+                            id="radio-telefono" value="Telefono">Telefono</label>
+
+
+                    <label class="checkbox" for="radio-whatsapp"><input type="radio" name="contacto"
+                            id="radio-whatsapp" value="Whatsapp" checked="">Whatsapp</label>
+                    <!--El checked es la posibilidad de dejar un punto marcado por defecto-->
+
+                </fieldset>
+
+                <fieldset>
+                    <legend>En cual horario desearia ser atendido</legend>
+                    <select name="" id=""><!--Esta etiqueta sirve para deslegar una lista de opciones-->
+                        <option value="">Mañana</option>
+                        <option value="">Tarde</option>
+                        <option value="">Noche</option>
+                    </select>
+                </fieldset>
+
+
+                <label><input type="checkbox" checked=""> Le gustaria recibir novedades de Magia
+                    Secreta?</label><!--Si lo agrego de esta manera no tendre que usar ni el id ni el for. El checkbox es un cuadradito para marcar-->
+
+                <input type="submit" id="enviar" class="enviar"
+                    value="Enviar Formulario"><!--Entrada tipo boton-enviar. Con el value puedo cambiar el texto del boton-->
+
+
+            </form>
+            <div class="as derecha">
+                <div class="as_redes">
+                    <h2>O siguienos en nuestras redes</h2>
+                    <ul>
+                        <li class="item_social"><a
+                                href="https://www.instagram.com/magiasecreta.freyda/?igshid=ZGUzMzM3NWJiOQ%3D%3D"><i
+                                    class="fa-brands fa-instagram"></i></a></li>
+                        <li class="item_social"><a href=""><i class="fa-brands fa-facebook-f"></i></a></li>
+                        <li class="item_social"><a href="https://api.whatsapp.com/send/?phone=5493513208004"><i
+                                    class="fa-brands fa-whatsapp"></i></a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+</body>
+</html>
