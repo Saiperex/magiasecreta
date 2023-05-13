@@ -144,4 +144,8 @@
         height: 95vh;
         top: 5vh;
     }
+    .slider img 
+    {
+        width: 80%;
+    }
 }
