@@ -17,3 +17,8 @@ function validar ()
         menu.style.right="-100vw"
     }
 }
+document.querySelector(".fa-rectangle-xmark").addEventListener("click",function()
+{
+    menu.style.right="-100vw"
+    botonMenu.classList.toggle("change")
+})
