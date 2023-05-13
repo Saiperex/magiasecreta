@@ -457,3 +457,26 @@ text-align: center;
     justify-content: space-around;
     font-size: 7vh;
 }
+.flotante
+{
+    z-index: 11;
+    position: fixed;
+    color: #fff;
+    top: 90vh;
+    left: 1vw;
+    font-size: 5vh;
+    width: 3.9vh;
+    height: 3.9vh;
+    border-radius: 50%;
+    background-color: #25D366;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    opacity: .5;
+    transition: opacity 500ms ease-in-out;
+}
+.flotante:hover
+{
+    opacity: 1;
+}

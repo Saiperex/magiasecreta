@@ -1,155 +1,158 @@
-@media screen and (max-width:1279px) 
-{
-    .cabecera
-    {
+@media screen and (max-width:1279px) {
+    .cabecera {
         display: none;
     }
-    .second_cabecera
-    {
+
+    .second_cabecera {
         border-bottom: solid 1px #fff;
     }
-    .menu_item
-    {
+
+    .menu_item {
         display: none;
     }
-    .menu
-    {
+
+    .menu {
         justify-content: flex-end;
     }
-    .inicio
-    {
+
+    .inicio {
         height: 95vh;
         flex-direction: column;
     }
-    .inicio_seccion
-    {
+
+    .inicio_seccion {
         width: 100%;
         height: 50%;
     }
-    .borde3
-    {
+
+    .borde3 {
         width: 30vh;
         height: 30vh;
     }
-    .borde
-    {
+
+    .borde {
         width: 30vh;
         height: 30vh;
     }
-    .gafete
-    {
+
+    .gafete {
         width: 60%;
         height: 10%;
         bottom: 15%;
     }
-    .logo h1 
-    {
+
+    .logo h1 {
         font-size: 2vh;
     }
-    .inicio_texto-contenido
-    {
+
+    .inicio_texto-contenido {
         width: 90%;
         height: 90%;
     }
-    .inicio_texto-contenido h2
-    {
+
+    .inicio_texto-contenido h2 {
         width: 100%;
         color: #fff;
         text-shadow: 0 0 20px #C5A967;
 
     }
-    .inicio_texto-contenido p
-    {
+
+    .inicio_texto-contenido p {
         width: 100%;
         color: #C5A967;
         text-shadow: 0 0 20px #000;
     }
-    .animacion
-    {
+
+    .animacion {
         border-top: 1px solid #fff;
         box-shadow: inset 0 0 5px #C5A967, inset 0 0 10px #C5A967, 0 0 20px #C5A967;
-    
+
     }
-    .acerca_imagenes
-    {
+
+    .acerca_imagenes {
         display: none;
     }
-    .acerca_textos
-    {
+
+    .acerca_textos {
         width: 100%;
     }
-    .acerca_textos p
-    {
+
+    .acerca_textos p {
         font-size: 2vh;
     }
-    .card_conteiner
-    {
+
+    .card_conteiner {
         flex-direction: column;
         height: 50%;
     }
-    .card
-    {
+
+    .card {
         width: 90%;
         height: 23%;
         font-size: 1.2vh;
     }
-    .servicios
-    {
+
+    .servicios {
         border-top: solid 1px #C5A967;
     }
-    .servicios_contenedor
-    {
+
+    .servicios_contenedor {
         margin-top: 5vh;
     }
-    .servicio_item
-    {
+
+    .servicio_item {
         width: 80%;
         height: 20%;
         justify-content: center;
     }
-    .servicio_item img 
-    {
+
+    .servicio_item img {
         position: absolute;
         top: -25%;
         height: 30%;
     }
-    .servicio_item p 
-    {
+
+    .servicio_item p {
         font-size: 1.2vh;
         width: 95%;
         height: 40%;
     }
+
     /*Contacto*/
-    .contacto_contenedor
-    {
+    .contacto_contenedor {
         flex-direction: column;
     }
-    .izquierda
-    {
+
+    .izquierda {
         width: 100%;
         height: 80%;
     }
-    .derecha
-    {
+
+    .derecha {
         width: 100%;
         height: 20%;
     }
-    .as_redes ul
-    {
+
+    .as_redes ul {
         font-size: 5vh;
     }
-    .slider
-    {
+
+    .slider {
         width: 100%;
         height: 95vh;
         top: 5vh;
     }
-    .slider img 
-    {
+
+    .slider img {
         width: 70%;
     }
-    .itemRedes
-    {
+
+    .itemRedes {
         margin-bottom: 10vh;
+    }
+
+    .flotante 
+    {
+        
     }
 }
