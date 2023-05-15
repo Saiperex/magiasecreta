@@ -225,7 +225,7 @@
         <section class="contacto_area section">
             <div class="acercaBg"></div>
             <div class="contacto_contenedor">
-                <form class="as izquierda" action="">
+                <form id="formularioMagia" class="as izquierda" action="">
                     <h2>CONTACTANOS</h2>
                     <label for="nombreapellido">Nombre y
                         Apellido</label><!--La etiqueta for enlaza el texto del label al imput-->
@@ -243,7 +243,7 @@
                         placeholder="(xxx) 15(x-xxx-xxx)">
 
                     <label for="contraseña">mensaje</label>
-                    <input type="password" name="password" id="contraseña" class="input-padron" required=""
+                    <input type="text" name="password" id="contraseña" class="input-padron" required=""
                         placeholder="">
 
                     <fieldset>
@@ -267,7 +267,7 @@
 
                     <fieldset>
                         <legend>En cual horario desearia ser atendido</legend>
-                        <select name="" id=""><!--Esta etiqueta sirve para deslegar una lista de opciones-->
+                        <select name="" id="horarios"><!--Esta etiqueta sirve para deslegar una lista de opciones-->
                             <option value="">Mañana</option>
                             <option value="">Tarde</option>
                             <option value="">Noche</option>
@@ -301,6 +301,7 @@
 
     </main>
 </body>
+<script src="js/form.js"></script>
 <script src="js/buttons.js"></script>
 <script src="js/slider.js"></script>
 <script src="js/three.min.js"></script>
