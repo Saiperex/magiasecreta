@@ -13,7 +13,7 @@ const selectedText = selectedOption.text;
     
 
     // Construir el enlace de WhatsApp
-    const enlaceWhatsApp = `https://wa.me/5493513208004/?text=Nombre:%20${encodeURIComponent(nombre)}%0ACorreo:%20${encodeURIComponent(correo)}%0ATeléfono:%20${encodeURIComponent(telefono)}%0AMensaje:%20${encodeURIComponent(mensaje)}%0AHorario:%20${encodeURIComponent(selectedText)}`;
+    const enlaceWhatsApp = `https://wa.me/5493516643787/?text=Nombre:%20${encodeURIComponent(nombre)}%0ACorreo:%20${encodeURIComponent(correo)}%0ATeléfono:%20${encodeURIComponent(telefono)}%0AMensaje:%20${encodeURIComponent(mensaje)}%0AHorario:%20${encodeURIComponent(selectedText)}`;
 
     // Redireccionar al enlace de WhatsApp
     window.location.href = enlaceWhatsApp;

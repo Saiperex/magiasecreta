@@ -47,5 +47,5 @@ document.addEventListener('DOMContentLoaded', function() {
     });
   });
   document.querySelector(".flotante").addEventListener("click", function() {
-    window.location.href = "https://api.whatsapp.com/send/?phone=5493513208004";
+    window.location.href = "https://api.whatsapp.com/send/?phone=5493516643787";
   });
